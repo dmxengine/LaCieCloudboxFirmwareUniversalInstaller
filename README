@@ -1,0 +1,18 @@
+Good day! If you want install LaCie Cloudbox Firmware on new clean HDD or SSD you are on the right track. This script allow you restore firmware on any capacity HDD/SSD (10GB+).
+
+Instructions:
+
+1.  Find computer with installed Ubuntu or Debian Linux.
+2.  Download this archive.
+3.  Unpack it.
+4.  Connect new HDD or SSD drive and find it name (example /dev/sdb).
+5.  Install gzip, gdisk, mdadm and lvm2 packages on your Linux box (apt-get install gzip gdisk mdadm lvm2).
+6.  Open Install.sh script and modify TARGET_DISK_DEV_NAME=/dev/sdb line with your HDD/SSD drive name.
+7.  Run Install.sh.
+8.  Shutdown machine and unplug your firmwared HDD/SSD.
+9.  Install it to your Cloudbox.
+10. Enjoy.
+
+If something went wrong open Install script, run commands manually. When errors appear – Google them.
+
+Strongly recommended full format destination drive before run this script.
